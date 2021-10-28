@@ -9,9 +9,63 @@
   </head>
 
   <body>
+<div class="container">
+<div class="heading">
+  <h1>Television Shows</h1>
+</div>
+<div class="formBox">
+<label for="dropDownEpisodes"></label>
+<select name="dropDownEpisodes" id="dropDownEpisodes" class="dropdownEps">
+  <optgroup label="chooseEpisodes">
+    <option value="ep1">Episode One</option>
+    <option value="ep2">Episode Two</option>
+    <option value="ep3">Episode Three</option>
+    <option value="ep4">Episode Four</option>
+  </optgroup> 
+</select>
+<label for="dropDownSeason"></label>
+<select name="dropDownSeasons" id="dropDownSeasons" class="dropdownSeas">
+  <optgroup label ="chooseSeason">
+    <option value="ep1">Season One</option>
+    <option value="ep2">Season Two</option>
+    <option value="ep3">Season Three</option>
+    <option value="ep4">Season Four</option>
+  </optgroup>
+</select>
+</div>
+<div class="info-container">
+<div class="search">
+    <div class="input">
+      <input type="text" placeholder="Search" id="mysearch">
+    </div>
+  <div class="dropdown"></div>
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="row">
+  <div class="card">
+    <div class="card-header">
+      <h4>title here</h4>
+    </div>
+    <div class="card-body">
+      <p>
+        lorem ipsum dolor sit amet, 
+      </p>
+    </div>
+  </div>
+</div> 
+</div>
+
+<div class="footer">
+  <footer>data supplied by TVMaze.com</footer>
+</div>
     <div id="root">
     </div>
-    <p><h1>test</h1></p>
+  
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
